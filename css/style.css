@@ -1,0 +1,50 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+
+.wraper{
+    border: 1px solid #000;
+    width: 90%;
+    height: 700px;
+    background-color: #eccc92;
+    margin: 0 auto;
+}
+
+.header{
+    border: 1px solid #000;
+    height: 20%;
+    width: 100%;
+    background-color: gray;
+}
+.menu{
+    border: 1px solid #000;
+    height: 10%;
+    width: 100%;
+    background-color: #f0f854;
+    
+}
+#main{
+    border: 1px solid #000;
+    height: 50%;
+    width: 100%;
+    background-color: pink;  
+}
+
+.sidebar{
+    overflow: hidden;
+    height: 97%;
+    width: 30%;
+    background-color: aqua;  
+    margin-top: 5px;
+    margin-left: 5px;
+    
+
+
+}
+.footer{
+    border: 1px solid #000;
+    height: 20%;
+    width: 100%;
+    background: #bcb5e9; 
+}
