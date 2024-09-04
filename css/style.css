@@ -31,16 +31,12 @@ body{
     background-color: pink;  
 }
 
-.sidebar{
-    overflow: hidden;
-    height: 97%;
-    width: 30%;
-    background-color: aqua;  
-    margin-top: 5px;
-    margin-left: 5px;
+#main .sidebar{
+   
+    height: 50px;
+    width: 100px;
+    background-color: red;   
     
-
-
 }
 .footer{
     border: 1px solid #000;
