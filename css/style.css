@@ -17,6 +17,10 @@ body{
     width: 100%;
     background-color: gray;
 }
+.header img{
+    height: 100%;
+    width: 100%;
+}
 .menu{
     border: 1px solid #000;
     height: 10%;
@@ -29,15 +33,31 @@ body{
     height: 50%;
     width: 100%;
     background-color: pink;  
+    float: left;
 }
 
 #main .sidebar{
-   
-    height: 50px;
-    width: 100px;
-    background-color: red;   
-    
+    border: 1px solid #000;
+    height: 300px;
+    width: 20%;
+    background-color: blue; 
+    margin-top: 5px;    
+    margin-left: 5px; 
+    float: left;  
 }
+#main .mainContain{
+    border: 1px solid #000;
+    height: 300px;
+    width: 77%;
+    background-color: orange; 
+    margin-top: 5px;    
+    margin-left: 10px;
+    float: right;   
+}
+.clear{
+    clear: both;
+}
+
 .footer{
     border: 1px solid #000;
     height: 20%;

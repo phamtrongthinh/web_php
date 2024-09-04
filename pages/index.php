@@ -11,14 +11,23 @@
     
     <div class= "wraper">
         <div class="header">
-            <p> this is header</p>
+            <img src="../image/first_pic.jpg" alt="header picture">
         </div>
         <div class="menu">
             <p>menu</p>
         </div>
         <div id ="main">
-            <div class= "sidebar"></div>
+          <div class ="sidebar">
+           Side bar
+
+          </div>
+          <div class ="mainContain">
+           Main contain
+
+          </div>
+          
         </div>
+        <div class="clear"></div>
         <div class="footer">
             <p>footer</p>
         </div>
